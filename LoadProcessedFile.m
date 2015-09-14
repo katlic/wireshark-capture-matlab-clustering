@@ -1,6 +1,3 @@
-%% Peter Katlic
-% ECSE-6610
-% Project
 % Clustering and Classification of Computer Network Traffic
 % load a processed capture file
 
@@ -10,18 +7,8 @@ clc
 format long g
 
 %% input parameters
-processedFiles = {'processed/download_30s.dat'
-    'processed/music_30s.dat'
-    'processed/netflix_30s.dat'
-    'processed/skype_30s.dat'
-    'processed/upload_30s.dat'
-    'processed/web_30s.dat'
-    'processed/web_60s.dat'
-    'processed/youtube_30s.dat'
-    'processed/youtube_60s.dat'};
-
 % specify input file
-processedFile = processedFiles{6};
+processedFile = 'processed/test.dat';
 fprintf('processed file: %s\n', processedFile);
 
 %% load packet features

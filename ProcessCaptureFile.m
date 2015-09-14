@@ -1,6 +1,3 @@
-%% Peter Katlic
-% ECSE-6610
-% Project
 % Clustering and Classification of Computer Network Traffic
 % process a capture file
 
@@ -9,18 +6,8 @@ clc
 
 %% input parameters
 % local IP address to determine tx/rx
-localIP = '192.168.1.136';
-captureFiles = {'captures/download_30s.cap'
-    'captures/music_30s.cap'
-    'captures/netflix_30s.cap'
-    'captures/skype_30s.cap'
-    'captures/upload_30s.cap'
-    'captures/web_30s.cap'
-    'captures/web_60s.cap'
-    'captures/youtube_30s.cap'
-    'captures/youtube_60s.cap'};
-captureFile = captureFiles{3};
-%captureFile = 'captures/netflix_30s.cap';
+localIP = '127.0.0.1';
+captureFile = 'captures/test.cap';
 [filePath,fileName,fileExtension] = fileparts(captureFile);
 globalHeaderLength = 24;
 packetHeaderLength = 16;

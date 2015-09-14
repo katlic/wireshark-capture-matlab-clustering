@@ -1,6 +1,3 @@
-%% Peter Katlic
-% ECSE-6610
-% Project
 % Clustering and Classification of Computer Network Traffic
 % perform clustering on specified features
 
